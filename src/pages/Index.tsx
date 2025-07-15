@@ -9,8 +9,8 @@ import { useToast } from "@/hooks/use-toast";
 
 const translations = {
   en: {
-    title: "XMRT DAO Initiative",
-    subtitle: "Join the future of decentralized finance",
+    title: "MobileMonero.com",
+    subtitle: "by XMRT.io - Join the future of decentralized finance",
     steps: [
       {
         title: "Install Termux",
@@ -48,7 +48,7 @@ const translations = {
         command: "pkg install python",
       },
       {
-        title: "Join XMRT DAO",
+        title: "Join MobileMonero",
         description: "Copy and run this command",
         content: (
           <div className="relative font-mono bg-gray-100 text-monero p-3 rounded-md border">
@@ -67,8 +67,8 @@ const translations = {
     subscribe: "Subscribe to Updates"
   },
   es: {
-    title: "Iniciativa XMRT DAO",
-    subtitle: "Únete al futuro de las finanzas descentralizadas",
+    title: "MobileMonero.com",
+    subtitle: "por XMRT.io - Únete al futuro de las finanzas descentralizadas",
     steps: [
       {
         title: "Instalar Termux",
@@ -106,7 +106,7 @@ const translations = {
         command: "pkg install python",
       },
       {
-        title: "Unirse a XMRT DAO",
+        title: "Unirse a MobileMonero",
         description: "Copia y ejecuta este comando",
         content: (
           <div className="relative font-mono bg-gray-100 text-monero p-3 rounded-md border">
@@ -236,7 +236,7 @@ const Index = () => {
               {t.contactSupport}
             </a>
             <a
-              href="mailto:xmrtsolutions@gmail.com?subject=Subscribe to XMRT DAO Updates"
+              href="mailto:xmrtsolutions@gmail.com?subject=Subscribe to MobileMonero Updates"
               className="text-xs text-monero hover:text-monero-dark transition-colors"
             >
               {t.subscribe}
