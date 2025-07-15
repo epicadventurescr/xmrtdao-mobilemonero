@@ -1,3 +1,90 @@
-# Welcome to XMRT DAO
 
-**XMRT** **Mobile Monero (XMRT)** is a privacy-focused cryptocurrency that enables fast, secure, and untraceable transactions. It is a fork of Monero (XMR) and offers enhanced features, including: - **Mobile-first design:** Optimized for easy use on smartphones and tablets. - **Faster block times:** Transactions are confirmed in just 2 minutes, compared to 10 minutes for XMR. - **Increased scalability:** XMRT's network can handle a higher volume of transactions without compromising privacy. **Benefits of using XMRT:** - **Privacy:** Transactions are completely anonymous and untraceable. - **Security:** XMRT uses advanced cryptography to protect user funds. - **Speed:** Transactions are confirmed quickly and efficiently. - **Low fees:** XMRT transactions have minimal fees, making it accessible to everyone. - **Community-driven:** XMRT is governed by a decentralized community of users. **Getting started with XMRT:** 1. **Download the XMRT wallet:** Available for iOS, Android, and desktop. 2. **Create a new wallet:** Generate a unique seed phrase to secure your funds. 3. **Acquire XMRT:** Purchase XMRT through exchanges or receive it from others. 4. **Start transacting:** Send and receive XMRT privately and securely. **XMRT Trust DAO:** The XMRT Trust DAO is a decentralized autonomous organization (DAO) that governs the development and adoption of XMRT. The DAO empowers the community to make decisions and shape the future of the project. **Ways to participate in the XMRT ecosystem:** - **Hold XMRT tokens:** Participate in governance and earn rewards. - **Become a validator:** Secure the network and earn block rewards. - **Contribute to the community:** Join discussions, develop tools, and promote XMRT. **Resources:** - Website: https://xmrt.io/ - Telegram: https://t.me/xmrt_official - Discord: https://discord.gg/xmrt - Twitter: https://twitter.com/xmrt_official **Disclaimer:** XMRT is a decentralized cryptocurrency. Its value and functionality may fluctuate. Invest at your own risk.
+# MobileMonero Setup Guide
+
+**MobileMonero** is a step-by-step guide application that helps users set up MobileMonero on their Android devices using Termux. This web application provides an easy-to-follow tutorial for joining the MobileMonero network, which is part of the XMRT ecosystem.
+
+## About MobileMonero
+
+MobileMonero brings privacy-focused cryptocurrency functionality to mobile devices, leveraging the power of Monero's technology with enhanced mobile optimization. It's designed to make cryptocurrency accessible to everyone, anywhere.
+
+## Features
+
+- **Multi-language Support**: Available in English and Spanish
+- **Step-by-step Guide**: Clear, numbered instructions for setup
+- **Copy-to-clipboard**: Easy command copying for terminal use
+- **Mobile-optimized**: Designed specifically for mobile devices
+- **Progress Tracking**: Visual step indicator to track progress
+
+## Setup Process
+
+The app guides users through three main steps:
+
+1. **Install Termux** - Get the terminal emulator from Google Play Store
+2. **Install Python** - Set up Python environment in Termux
+3. **Join MobileMonero** - Run the signup script to join the network
+
+## Technology Stack
+
+- **React** with TypeScript
+- **Vite** for build tooling
+- **Tailwind CSS** for styling
+- **Framer Motion** for animations
+- **Shadcn/ui** components
+- **React Router** for navigation
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 18 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # Shadcn/ui components
+│   ├── StepCard.tsx    # Individual step display
+│   └── StepIndicator.tsx # Progress indicator
+├── pages/
+│   └── Index.tsx       # Main application page
+├── hooks/              # Custom React hooks
+└── lib/                # Utility functions
+```
+
+## Contributing
+
+This project is part of the XMRT ecosystem. For contributions or issues, please contact the development team.
+
+## Support
+
+For technical support or questions:
+- Email: xmrtsolutions@gmail.com
+- Website: https://xmrt.io/
+
+## License
+
+This project is part of the XMRT ecosystem and follows the project's licensing terms.
+
+## About XMRT
+
+XMRT is focused on bringing privacy-focused cryptocurrency solutions to mobile platforms, making decentralized finance accessible to everyone worldwide.
