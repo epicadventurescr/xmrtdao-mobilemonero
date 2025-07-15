@@ -24,10 +24,10 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        matic: {
-          light: "#E5E0FF",
-          DEFAULT: "#8247E5",
-          dark: "#2D1B69",
+        monero: {
+          light: "#FFE5CC",
+          DEFAULT: "#FF6600",
+          dark: "#CC3300",
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",
