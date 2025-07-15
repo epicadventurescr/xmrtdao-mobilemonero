@@ -9,7 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 
 const translations = {
   en: {
-    title: "MobileMonero.com",
+    title: "MobileMonero",
     subtitle: "by XMRT.io - Join the future of decentralized finance",
     steps: [
       {
@@ -67,7 +67,7 @@ const translations = {
     subscribe: "Subscribe to Updates"
   },
   es: {
-    title: "MobileMonero.com",
+    title: "MobileMonero",
     subtitle: "por XMRT.io - Únete al futuro de las finanzas descentralizadas",
     steps: [
       {
