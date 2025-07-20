@@ -64,7 +64,8 @@ const translations = {
     copied: "Copied!",
     copiedDesc: "Command copied to clipboard",
     contactSupport: "Contact Support",
-    subscribe: "Subscribe to Updates"
+    subscribe: "Subscribe to Updates",
+    viewRewards: "View Rewards"
   },
   es: {
     title: "MobileMonero",
@@ -122,7 +123,8 @@ const translations = {
     copied: "¡Copiado!",
     copiedDesc: "Comando copiado al portapapeles",
     contactSupport: "Contactar Soporte",
-    subscribe: "Suscribirse a Actualizaciones"
+    subscribe: "Suscribirse a Actualizaciones",
+    viewRewards: "Ver Recompensas"
   }
 };
 
@@ -229,6 +231,14 @@ const Index = () => {
 
         <footer className="mt-8 pt-4 border-t border-monero/20">
           <div className="flex flex-col items-center space-y-4">
+            <a
+              href="https://xmrtdao.streamlit.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-['Press_Start_2P'] text-xs text-monero hover:text-monero-dark transition-colors underline"
+            >
+              {t.viewRewards}
+            </a>
             <a
               href="mailto:xmrtsolutions@gmail.com"
               className="font-['Press_Start_2P'] text-xs text-monero hover:text-monero-dark transition-colors"
